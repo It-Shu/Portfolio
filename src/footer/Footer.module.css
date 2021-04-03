@@ -1,0 +1,38 @@
+.containerFooter {
+    height: 100vh;
+    background-color: #949411;
+    flex-wrap: wrap;
+    padding: 20px ;
+}
+
+.footer {
+    border: 1px solid red;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.name {
+
+}
+
+.socialIcons {
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.icons {
+    width: 80px;
+    height: 60px;
+    background-color: #1c71a9;
+    flex-wrap: wrap;
+}

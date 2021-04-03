@@ -1,0 +1,28 @@
+.projectsBlock {
+    background-color: #d6cdd7;
+    flex-wrap: wrap;
+    padding: 20px ;
+}
+
+.projectsContainer {
+    flex-direction: column;
+    border: 1px solid red;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projectsTitle {
+    background-color: #ffecb8;
+}
+
+.projects {
+    width: 80%;
+    border: 1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

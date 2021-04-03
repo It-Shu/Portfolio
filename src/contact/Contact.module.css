@@ -1,0 +1,30 @@
+.contact {
+    background-color: #8a7878;
+    flex-wrap: wrap;
+    padding: 20px ;
+}
+
+.containerContact {
+    border: 1px solid red;
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.contactTitle {
+    background-color: #ffecb8;
+}
+
+.containerForm {
+    width: 50%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
