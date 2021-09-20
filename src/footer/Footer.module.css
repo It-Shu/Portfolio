@@ -1,5 +1,5 @@
 .containerFooter {
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: #949411;
     flex-wrap: wrap;
     padding: 20px ;
@@ -31,7 +31,7 @@
 }
 
 .icons {
-    width: 80px;
+    width: 100%;
     height: 60px;
     background-color: #1c71a9;
     flex-wrap: wrap;
