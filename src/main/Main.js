@@ -8,9 +8,9 @@ function Main() {
         <div className={s.mainBlock}>
             <div className={sC.container}>
             <div className={s.greeting}>
-                <span>Hello</span>
+                <span>Hello...</span>
                 <h1>My name is Sergei Shustov</h1>
-                <p>i'm Frontend Developer.</p>
+                <p>i'm Front-end Developer...</p>
             </div>
             <div className={s.photo}>Photo</div>
             </div>

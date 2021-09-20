@@ -1,11 +1,12 @@
 .mainBlock {
     height: 100vh;
-    background-color: #80c9ff;
+    background-color: #0B1810;
 }
 
 .greeting {
     width: 300px;
-    background-color: #923dff;
+    background-color: #0B1810;
+    color: #8AAB91;
 }
 
 .photo {

@@ -1,9 +1,10 @@
 .aboutBlock {
     padding-top:  0.67em;
     height: 100vh;
-    background-color: #e0bd3f;
+    background-color: #0B1810;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-left: 15%;
+    color: #8AAB91;
 }

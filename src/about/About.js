@@ -7,10 +7,10 @@ function About() {
         <div className={s.aboutBlock}>
             <h1>About</h1>
             <div>
-                <a>some text</a>
+                <p>some text</p>
             </div>
             <h1>TypeScript React junior Developer</h1>
-            <a>some text</a>
+            <p>some text</p>
             <ul>
                 <li>
                     Birthday: 8 October 1990
@@ -28,10 +28,10 @@ function About() {
                     Age: 30
                 </li>
                 <li>
-                    Mail: it-shustov@gmail.com
+                    Mail: it.shustov@gmail.com
                 </li>
             </ul>
-            <a>some text</a>
+            <p>some text</p>
         </div>
     )
 }
