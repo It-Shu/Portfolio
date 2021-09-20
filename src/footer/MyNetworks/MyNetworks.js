@@ -3,14 +3,13 @@ import s from "../Footer.module.css";
 
 
 
-function Icons(props) {
+export function MyNetworks(props) {
     return (
         <div>
             <div className={s.icons}>
-                <div>{props.title}</div>
+                <div>{props.icon}</div>
             </div>
         </div>
     )
 }
 
-export default Icons;

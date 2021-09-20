@@ -25,9 +25,9 @@ function Skills() {
                         icon={<img className={s.img} src={ReactLogo} alt=""/>}
                     />
                     <Skill
-                        title={"Redux"}
+                        title={"CSS"}
                         description={"some text"}
-                        icon={<img className={s.img} src={ReduxLogo} alt=""/>}
+                        icon={<img className={s.css} src={CSSLogo} alt=""/>}
                     />
                 </div>
                 <div className={s.skills}>
@@ -37,9 +37,9 @@ function Skills() {
                         icon={<img className={s.img} src={TSLogo} alt=""/>}
                     />
                     <Skill
-                        title={"CSS"}
+                        title={"Redux"}
                         description={"some text"}
-                        icon={<img className={s.css} src={CSSLogo} alt=""/>}
+                        icon={<img className={s.img} src={ReduxLogo} alt=""/>}
                     />
                     <Skill
                         title={"HTML"}
@@ -47,7 +47,7 @@ function Skills() {
                         icon={<img className={s.css} src={HTMLLogo} alt=""/>}
                     />
                 </div>
-                <div className={s.skills}>
+               {/* <div className={s.skills}>
                     <Skill
                         title={"MaterialUI"}
                         description={"some text"}
@@ -63,7 +63,7 @@ function Skills() {
                         description={"some text"}
                         icon={<img className={s.img} src={ReactLogo} alt=""/>}
                     />
-                </div>
+                </div>*/}
             </div>
         </div>
     );
