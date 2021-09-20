@@ -1,5 +1,5 @@
 .projectsBlock {
-    background-color: #d6cdd7;
+    background-color: #0B1810;
     flex-wrap: wrap;
     padding: 20px ;
 }
@@ -16,10 +16,13 @@
 }
 
 .projectsTitle {
-    background-color: #ffecb8;
+    font-family: 'Titillium Web', sans-serif;
+    color: #8AAB91;
 }
 
 .projects {
+    font-family: 'Titillium Web', sans-serif;
+    color: #8AAB91;
     width: 80%;
     border: 1px solid red;
     display: flex;

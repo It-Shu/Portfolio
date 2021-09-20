@@ -10,7 +10,7 @@ function Footer() {
     return (
         <div className={s.containerFooter}>
             <div className={s.footer}>
-                <h2 className={s.name}>Sergei Shutov</h2>
+                <h2 className={s.name}>Sergei Shustov</h2>
                 <div className={s.socialIcons}>
                     <MyNetworks icon={<img className={s.icons} src={linkedinLogo} alt=""/>} />
                     <MyNetworks icon={<img className={s.icons} src={twitterLogo} alt=""/>}/>

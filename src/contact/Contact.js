@@ -11,10 +11,10 @@ function Contact() {
                     <form action="" className={s.form}>
                         <input type="text"  placeholder="Name"/>
                         <input type="text" placeholder="Last Name"/>
-                        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea>{/* /# */}
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"/>{/* /# */}
                     </form>
                 </div>
-                <button type="submit">Submit</button>
+                <button className={s.button} type="submit">Submit</button>
             </div>
 
         </div>
