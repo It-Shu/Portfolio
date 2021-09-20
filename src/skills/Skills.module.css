@@ -5,6 +5,8 @@
 }
 
 .skillsContainer {
+    font-family: 'Titillium Web', sans-serif;
+    color: #8AAB91;
     flex-direction: column;
     border: 1px solid red;
     width: 80%;
@@ -16,14 +18,26 @@
 }
 
 .skillsTitle {
-    background-color: #ffecb8;
+    /*color: #8AAB91;*/
+    /*background-color: #ffecb8;*/
 }
 
 .skills {
+    /*color: #8AAB91;*/
     width: 100%;
     border: 1px solid red;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
+}
+
+.img {
+    width: 60px;
+    height: 60px;
+}
+
+.css {
+    width: 60px;
+    height: 70px;
 }
