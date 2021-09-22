@@ -16,29 +16,6 @@
     flex-wrap: nowrap;
 }
 
-.projectsTitle {
-    margin: 0 0 30px;
-    font-family: 'Titillium Web', sans-serif;
-    color: #8AAB91;
-    text-transform: capitalize;
-    font-size: 25px;
-    line-height: 1.2;
-    letter-spacing: 3px;
-    position: relative;
-}
-
-.projectsTitle h2 {
-    margin: 0;
-}
-
-.projectsTitle::before {
-    content: '';
-    position: absolute;
-    background: #8aab91;
-    width: 55px;
-    height: 1px;
-}
-
 .projects {
     font-family: 'Titillium Web', sans-serif;
     color: #8AAB91;
@@ -47,5 +24,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 30px;
 
 }

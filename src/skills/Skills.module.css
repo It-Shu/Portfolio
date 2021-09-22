@@ -16,29 +16,6 @@
     flex-wrap: nowrap;
 }
 
-.skillsTitle {
-    margin: 0 0 30px;
-    font-family: 'Titillium Web', sans-serif;
-    color: #8AAB91;
-    text-transform: capitalize;
-    font-size: 25px;
-    line-height: 1.2;
-    letter-spacing: 3px;
-    position: relative;
-}
-
-.skillsTitle h2 {
-    margin: 0;
-}
-
-.skillsTitle::before {
-    content: '';
-    position: absolute;
-    background: #8aab91;
-    width: 55px;
-    height: 1px;
-}
-
 .skills {
     /*color: #8AAB91;*/
     width: 100%;
@@ -48,6 +25,7 @@
     flex-wrap: wrap;
     margin-bottom: 30px;
     letter-spacing: 4px;
+    margin-top: 30px;
 }
 
 .img {

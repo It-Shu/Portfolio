@@ -7,14 +7,13 @@ import JSLogo from '../images/JSLogo.png'
 import TSLogo from '../images/TSLogo.png'
 import CSSLogo from '../images/CSSLogo.png'
 import HTMLLogo from '../images/HTMLLogo.png'
+import Title from "../common/components/title/Title";
 
 function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={s.skillsContainer}>
-                <div className={s.skillsTitle}>
-                    <h2>Skills</h2>
-                </div>
+               <Title title={'Skills'}/>
                 <div className={s.skills}>
                     <Skill
                         title={"JavaScript"}

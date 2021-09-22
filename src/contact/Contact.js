@@ -1,15 +1,13 @@
 import React from 'react';
 import s from './Contact.module.css';
+import Title from "../common/components/title/Title";
 
 
 function Contact() {
     return (
         <div className={s.contact}>
             <div className={s.containerContact}>
-                <div className={s.contactTitle}>
-                    <h2 >Contact</h2>
-                </div>
-
+                <Title title={'Contacts'}/>
                 <div className={s.containerForm}>
                     <form action="" className={s.form}>
                         <input type="text"  placeholder="Name"/>

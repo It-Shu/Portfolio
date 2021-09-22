@@ -1,0 +1,25 @@
+.title {
+    margin: 0 0 30px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #8AAB91;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    position: relative;
+}
+
+.title h2 {
+    margin: 0;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    background: #8aab91;
+    width: 55px;
+    height: 2px;
+    bottom: -30px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+}
