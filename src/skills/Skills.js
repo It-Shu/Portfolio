@@ -12,7 +12,9 @@ function Skills() {
     return (
         <div className={s.skillsBlock}>
             <div className={s.skillsContainer}>
-                <h2 className={s.skillsTitle}>Skills</h2>
+                <div className={s.skillsTitle}>
+                    <h2>Skills</h2>
+                </div>
                 <div className={s.skills}>
                     <Skill
                         title={"JavaScript"}
@@ -47,7 +49,7 @@ function Skills() {
                         icon={<img className={s.css} src={HTMLLogo} alt=""/>}
                     />
                 </div>
-               {/* <div className={s.skills}>
+                {/* <div className={s.skills}>
                     <Skill
                         title={"MaterialUI"}
                         description={"some text"}

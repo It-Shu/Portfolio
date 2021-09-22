@@ -5,20 +5,38 @@
 }
 
 .containerContact {
+    flex-direction: column;
     border: 1px solid red;
     width: 80%;
     height: 100%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .contactTitle {
+    margin: 0 0 30px;
     font-family: 'Titillium Web', sans-serif;
     color: #8AAB91;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.2;
     letter-spacing: 3px;
+    position: relative;
+}
+
+.contactTitle h2 {
+    margin: 0;
+}
+
+.contactTitle::before {
+    content: '';
+    position: absolute;
+    background: #8aab91;
+    width: 55px;
+    height: 1px;
 }
 
 .containerForm {

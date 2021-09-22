@@ -6,7 +6,10 @@ function Contact() {
     return (
         <div className={s.contact}>
             <div className={s.containerContact}>
-                <h2 className={s.contactTitle}>Contact</h2>
+                <div className={s.contactTitle}>
+                    <h2 >Contact</h2>
+                </div>
+
                 <div className={s.containerForm}>
                     <form action="" className={s.form}>
                         <input type="text"  placeholder="Name"/>

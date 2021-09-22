@@ -1,12 +1,10 @@
 .skillsBlock {
     background-color: #0B1810;
     flex-wrap: wrap;
-    padding: 20px ;
+    padding: 20px;
 }
 
 .skillsContainer {
-    font-family: 'Titillium Web', sans-serif;
-    color: #8AAB91;
     flex-direction: column;
     border: 1px solid red;
     width: 80%;
@@ -15,12 +13,30 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    flex-wrap: nowrap;
 }
 
 .skillsTitle {
-    /*color: #8AAB91;*/
-    /*background-color: #ffecb8;*/
+    margin: 0 0 30px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #8AAB91;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.2;
     letter-spacing: 3px;
+    position: relative;
+}
+
+.skillsTitle h2 {
+    margin: 0;
+}
+
+.skillsTitle::before {
+    content: '';
+    position: absolute;
+    background: #8aab91;
+    width: 55px;
+    height: 1px;
 }
 
 .skills {
