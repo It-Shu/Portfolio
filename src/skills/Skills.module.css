@@ -20,6 +20,7 @@
 .skillsTitle {
     /*color: #8AAB91;*/
     /*background-color: #ffecb8;*/
+    letter-spacing: 3px;
 }
 
 .skills {
@@ -30,6 +31,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin-bottom: 30px;
+    letter-spacing: 4px;
 }
 
 .img {
