@@ -14,7 +14,7 @@ function Contact() {
                         <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"/>{/* /# */}
                     </form>
                 </div>
-                <button className={s.button} type="submit">Submit</button>
+                <button className={s.button} type="submit">SUBMIT</button>
             </div>
 
         </div>
