@@ -8,8 +8,11 @@ function Project(props) {
             <div className={s.imgContainer}>
                 <a href="" className={s.link}>View</a>
             </div>
-            <div className={s.protectsTitle}>{props.title}</div>
-            <span className={s.description}>{props.description}</span>
+            <div className={s.projectText}>
+                <h3 className={s.protectsTitle}>{props.title}</h3>
+                <span className={s.description}>{props.description}</span>
+            </div>
+
         </div>
     );
 }

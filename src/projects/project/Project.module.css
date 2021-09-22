@@ -19,8 +19,14 @@
     align-items: center;
 }
 
-.link {
+.projectText {
     /*background-color: #f8f7f5;*/
+    font-family: 'Titillium Web', sans-serif;
+    padding: 25px 20px;
+}
+
+.projectText h3 {
+    margin-top: 0;
 }
 
 .description {

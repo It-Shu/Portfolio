@@ -10,7 +10,8 @@ function Projects() {
             <div className={s.projectsContainer}>
                 <Title title={'Projects'}/>
                 <div className={s.projects}>
-                    <Project title={"Social Network"} description={"some text"}/>
+                    <Project title={"Social Network"} description={"Social network is an online platform that is used for communication ," +
+                    " dating, creating social relations between people who have similar interests or offline connections"}/>
                     <Project title={"TodoList"} description={"some text"}/>
                 </div>
             </div>
