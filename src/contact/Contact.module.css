@@ -19,6 +19,7 @@
 .containerForm {
     width: 50%;
     margin-top: 30px;
+
 }
 
 .form {
@@ -37,4 +38,5 @@
     min-height: 23px;
     min-width: 75px;
     padding: 0 12px;
+    margin-bottom: 100px;
 }

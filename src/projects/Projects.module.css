@@ -2,6 +2,7 @@
     background-color: #0B1810;
     flex-wrap: wrap;
     padding: 20px ;
+
 }
 
 .projectsContainer {
@@ -14,6 +15,7 @@
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
+
 }
 
 .projects {
@@ -25,5 +27,5 @@
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 30px;
-
+    margin-bottom: 100px;
 }
