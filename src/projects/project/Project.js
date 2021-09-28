@@ -5,7 +5,7 @@ import s from './Project.module.css';
 function Project(props) {
     return (
         <div className={s.project}>
-            <div className={s.imgContainer}>
+            <div className={s.imgContainer} style={props.style}>
                 <a href="" className={s.link}>View</a>
             </div>
             <div className={s.projectText}>

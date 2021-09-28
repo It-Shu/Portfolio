@@ -9,7 +9,11 @@ import SocialImage from '../assets/image/Social-Network.png'
 function Projects() {
 
     const social = {
-        backgroundImage: 'url{' + '../assets/image/To-Do-List.jpg' + '}'
+        backgroundImage: `url(${SocialImage})`
+    }
+
+    const todoList = {
+        backgroundImage: `url(${TodoImage})`
     }
 
     return (
@@ -17,9 +21,9 @@ function Projects() {
             <div className={s.projectsContainer}>
                 <Title title={'Projects'}/>
                 <div className={s.projects}>
-                    <Project title={"Social Network"} description={"Social network is an online platform that is used for communication ," +
+                    <Project style={social} title={"Social Network"} description={"Social network is an online platform that is used for communication ," +
                     " dating, creating social relations between people who have similar interests or offline connections"}/>
-                    <Project title={"TodoList"} description={"some text"}/>
+                    <Project style={todoList} title={"TodoList"} description={"some text"}/>
                 </div>
             </div>
         </div>
