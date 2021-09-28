@@ -1,6 +1,6 @@
 .project {
     width: 300px;
-    background-color: #637bdb;
+    background-color: rgba(9, 33, 17, 0.98);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
